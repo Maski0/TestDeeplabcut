@@ -1,0 +1,85 @@
+    # Project definitions (do not edit)
+Task: Example
+scorer: Maski
+date: May1
+multianimalproject: true
+identity: false
+
+    # Project path (change when moving around)
+project_path: W:\Python\Example-Maski-2022-05-01
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  W:\Python\Example-Maski-2022-05-01\videos\Horse Walk-5J1lxVgXsOY-480p-1651401758058.mp4:
+    crop: 0, 640, 0, 480
+  W:\Python\Example-Maski-2022-05-01\videos\How fast does an Ostrich run.mov-1r-b8uY7C9E-480p-1651401905685.mp4:
+    crop: 0, 720, 0, 480
+  W:\Python\Example-Maski-2022-05-01\videos\videoplayback.mp4:
+    crop: 0, 640, 0, 360
+individuals:
+- individual1
+- individual2
+- individual3
+uniquebodyparts: []
+multianimalbodyparts:
+- righthandbottom
+- righthandtop
+- lefthandbottom
+- lefthanbdtop
+- rightlegbottom
+- rightlegtop
+- leftlegbottom
+- leftlegtop
+- head
+- body1
+- body2
+bodyparts: MULTI!
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - righthandbottom
+  - righthandtop
+- - lefthandbottom
+  - lefthanbdtop
+- - rightlegbottom
+  - rightlegtop
+- - leftlegbottom
+  - leftlegtop
+- - head
+  - body1
+- - body1
+  - body2
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: dlcrnet_ms5
+default_augmenter: multi-animal-imgaug
+default_track_method: ellipse
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
