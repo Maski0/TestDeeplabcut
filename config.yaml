@@ -6,7 +6,7 @@ multianimalproject: true
 identity: false
 
     # Project path (change when moving around)
-project_path: W:\Python\Example-Maski-2022-05-01
+project_path: /content/myrepo-repo
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:

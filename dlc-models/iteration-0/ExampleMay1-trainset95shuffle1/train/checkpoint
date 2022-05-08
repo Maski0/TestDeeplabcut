@@ -1,0 +1,6 @@
+model_checkpoint_path: "/content/myrepo-repo/dlc-models/iteration-0/ExampleMay1-trainset95shuffle1/train/snapshot-20000"
+all_model_checkpoint_paths: "/content/myrepo-repo/dlc-models/iteration-0/ExampleMay1-trainset95shuffle1/train/snapshot-18000"
+all_model_checkpoint_paths: "/content/myrepo-repo/dlc-models/iteration-0/ExampleMay1-trainset95shuffle1/train/snapshot-18500"
+all_model_checkpoint_paths: "/content/myrepo-repo/dlc-models/iteration-0/ExampleMay1-trainset95shuffle1/train/snapshot-19000"
+all_model_checkpoint_paths: "/content/myrepo-repo/dlc-models/iteration-0/ExampleMay1-trainset95shuffle1/train/snapshot-19500"
+all_model_checkpoint_paths: "/content/myrepo-repo/dlc-models/iteration-0/ExampleMay1-trainset95shuffle1/train/snapshot-20000"
