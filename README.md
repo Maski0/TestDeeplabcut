@@ -14,4 +14,5 @@
 8. we can train in via the CPU and GPU in the local machine or for better representation head over to the Google Colab and follow the path/instructions
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Maski0/Viga-DLC/blob/main/Viga_demo.ipynb)
 
-## Note: There are Braches for after evaluated dir and finished project dir
+## Note: There are Branches for After-Training&Evaluate dir and EndResult-withskeletonmesh project dir
+-The video with skeleton is in videos folder in the EndResult-withskeletonmesh branch 
