@@ -1,6 +1,6 @@
 # Pose estimation for animal motion capture
 
-### Used plugin
+### Used Tools
 -[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) using Python3
 
 ## Steps
