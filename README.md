@@ -1,7 +1,5 @@
 # Pose estimation for animal motion capture
 
-![](videos/DogRun.mp4)
-
 
 ### Used Tools
 -[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) using Python3
@@ -20,3 +18,8 @@
 ## Note: There are Branches for After-Training&Evaluate dir and EndResult-withskeletonmesh project dir
 -The video with skeleton is in videos folder in the EndResult-withskeletonmesh branch 
 
+## EndResult With Skeleton
+
+Horse                      |  Dog                      |  Ostrich                
+:-------------------------:|:-------------------------:|:-------------------------
+![](videos/HorseGif.gif)  |  ![](videos/DogGif.gif) |  ![](videos/OstrichGif.gif)
